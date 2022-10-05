@@ -3,6 +3,7 @@ html {
     --gray-light: #f5f5f5;
     --orange: #ffd334;
     font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth; /*bouton scroll pour revenir en haut de la page */
 }
 
 *,*::after,*::before {
@@ -599,8 +600,14 @@ form .signup {
     padding-top: 3em;
 }
 
+.btn-smooth {
+    color: var(--orange);
 
-
+}
+.btn-smooth i {
+    color: var(--orange);
+    font-size: 2em;
+}
 /*----------------- FIN PARTIE 1 ------------------------*/
 
 @media screen and (max-width: 862px) {
