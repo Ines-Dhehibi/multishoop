@@ -380,13 +380,7 @@ html {
     .nav1 ul li {
         display: inline-flex;
         margin-left: 10px;
-    }
-
-    /* .nav1 ul li{
-         display: flex-start; 
-        align-items: flex-start;
-        align-content:left;
-    } */
+    }         
 
     .nav1 .myrow .options {
         display: inline-flex;
