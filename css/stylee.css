@@ -563,7 +563,7 @@ footer {
     font-size: .8em;
 }
 
-.emoticontact {
+.emoti  ct {
     color: var(--orange);
 }
 
@@ -619,6 +619,7 @@ form .signup {
        width: 100%;
     }
 
+    
     .navbarlink li a {
         margin-left: 0;
     }
@@ -630,6 +631,7 @@ form .signup {
 
     .banniere1 {
         border-top: .1em solid transparent;
+        flex-direction: column;
     }
 
     .banniere1 .myrow {
@@ -720,6 +722,10 @@ form .signup {
 
     .customer {
         margin-left: 33%;
+    }
+    .vendeurs .imagevendeur img{
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
@@ -852,5 +858,9 @@ form .signup {
     }
     .fa-items {
         width: 350%;
+    }
+    .vendeurs .imagevendeur img{
+        width: 50%;
+        margin-left: 25%;
     }
 }
